@@ -1,120 +1,135 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+  transition: 0.5s;
 }
 
 .navbar-brand {
-    color: #fafafa!important;
+  color: #fafafa !important;
 }
 
 .nav-link {
-    color: #fafafa!important;
+  color: #fafafa !important;
 }
 
 .navbar {
-    background-color: #124878!important;
+  background-color: #124878 !important;
 }
 
 .navbar .colapse {
-    float: right;
+  float: right;
 }
 
 .board2 {
-    width: 100%;
-    display: block;
-    filter: brightness(90%);
-    background-color: #fefefe;
-    padding-bottom: 100px;
+  width: 100%;
+  display: block;
+  filter: brightness(90%);
+  background-color: #fefefe;
+  padding-bottom: 100px;
 }
 
 .board2 .container {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .board2 div {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .board2 div span {
-    width: 200px;
-    height: 200px;
-    background-color: #124878;
-    border-radius: 50%;
-    display: block;
-    margin: 0px auto 80px auto;
-    border: solid 20px #fefefe;
-    -webkit-box-shadow: 0px 0px 0px 10px #124878;
-    box-shadow: 0px 0px 0px 10px #124878;
+  width: 200px;
+  height: 200px;
+  background-color: #124878;
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto 80px auto;
+  border: solid 20px #fefefe;
+  -webkit-box-shadow: 0px 0px 0px 10px #124878;
+  box-shadow: 0px 0px 0px 10px #124878;
 }
 
 .board2 div h5 {
-    text-align: center;
-    color: #030303;
-    font-family: cursive;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #030303;
+  font-family: cursive;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
 }
 
 .thumbnail {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
 }
 
 .thumbnail img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 100%;
-    width: auto;
-    filter: brightness(50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  filter: brightness(50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .thumbnail img.portrait {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .board3 {
-    display: block;
-    width: 100%;
-    height: 300px;
+  display: block;
+  width: 100%;
+  height: 300px;
 }
 
 .board3 h3 {
-    width: 180px;
-    display: block;
-    margin: 150px auto 200px auto;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+  width: 180px;
+  display: block;
+  margin: 150px auto 80px auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 .board3 a {
-    display: block;
-    width: 250px;
-    padding: 20px 40px;
-    background-color: #124878;
-    border: 3px solid #124878;
-    transition: 0.5s;
-    color: #fafafa;
-    text-align: center;
-    border-radius: 5%;
-    margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
+  display: block;
+  width: 250px;
+  padding: 20px 40px;
+  background-color: #124878;
+  border: 3px solid #124878;
+  transition: 0.5s;
+  color: #fafafa;
+  text-align: center;
+  border-radius: 5%;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
 }
 
 .board3 a:hover {
-    text-decoration: none;
-    -webkit-box-shadow: inset 300px 0px 0px 0px rgba(250, 250, 250, 1);
-    -moz-box-shadow: inset 300px 0px 0px 0px rgba(250, 250, 250, 1);
-    box-shadow: inset 300px 0px 0px 0px rgba(250, 250, 250, 1);
-    transition: 0.5s;
-    color: #124878;
+  text-decoration: none;
+  -webkit-box-shadow: inset 300px 0px 0px 0px rgba(250, 250, 250, 1);
+  -moz-box-shadow: inset 300px 0px 0px 0px rgba(250, 250, 250, 1);
+  box-shadow: inset 300px 0px 0px 0px rgba(250, 250, 250, 1);
+  transition: 0.5s;
+  color: #124878;
 }
 
 footer {
-    display: block;
+  display: block;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: solid 3px #124878;
+  z-index: 30;
+  filter: brightness(90%);
+  background-color: #fefefe;
 }
+footer .item {
+  padding: 25px;
+}
+footer img {
+  
+}
+

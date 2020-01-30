@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  lero-lero:
+    image: nginx
+    volumes:
+      - ./:/usr/share/nginx/html
+    ports:
+      - 3000:80
