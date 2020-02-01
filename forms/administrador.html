@@ -13,72 +13,62 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
 
-    <title>Adicionar Cursos</title>
+    <title>Adicionar Adminsitrador</title>
   </head>
 
   <body>
     <div class="container">
       <div class="card w-50 mx-auto my-5 p-5">
-        <h1 class="card-title text-center">Adicionar Cursos</h1>
+        <h1 class="card-title text-center">Adicionar os administrador</h1>
         <div class="card-body">
             <form>
                 <div class="w-75 mx-auto">
                   <div class="form-group">
-                    <label for="username">Nome</label>
+                    <label for="id">Id</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="username"
-                      title="Nome de usuário"
-                      placeholder="Curso de Verão"
-                      maxlength="50"
+                      id="id"
+                      title="Id do administrador"
+                      placeholder="3"
+                      maxlength="11"
                     />
                   </div>
     
                   <div class="form-group">
-                    <label for="requisito">Requisito</label>
+                    <label for="nome">Nome</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="requisito"
-                      title="Requisitos do curso de verão"
-                      placeholder="Requisitos do curso de verão"
-                      maxlength="255"
+                      id="nome"
+                      title="Nome do Administrador"
+                      placeholder="Nome do Administrador"
+                      maxlength="50"
                     />
                   </div>
                   <div class="form-group">
-                    <label for="ementa">Ementa</label>
+                    <label for="login">Login</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="ementa"
-                      title="ementa do curso de verão"
-                      placeholder="Ementa do curso de verão"
-                      maxlength="255"
+                      id="login"
+                      title="login"
+                      placeholder="login"
+                      maxlength="20"
                     />
                   </div>
                   <div class="form-group">
-                    <label for="ch">Carga Horária (horas)</label>
+                    <label for="password">Senha</label>
                     <input
                       type="number"
                       class="form-control"
-                      id="ch"
-                      title="CH do curso de verão"
-                      placeholder="CH do curso de verão"
+                      id="password"
+                      title="password"
+                      placeholder="password"
                       maxlength="5"
                     />
                   </div>
-                  <div class="form-group">
-                    <label for="preco">Preço em Reais</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="preco"
-                      title="Preço do curso de verão"
-                      placeholder="Preço do curso de verão"
-                      maxlength="255"
-                    />
-                  </div>
+                
                   <button type="submit" class="btn btn-primary w-100">Adicionar</button>
                 </div>
               </form>
