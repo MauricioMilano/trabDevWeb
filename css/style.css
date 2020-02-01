@@ -141,3 +141,14 @@ footer img {
     margin-top: 40px;
     margin-left: 50px;
 }
+.tabela{
+  display: block;
+  margin: 50px auto 100px auto;
+  max-width: 800px;
+}
+.titulo-tabela{ 
+  display: block;
+  margin: 150px auto 0px auto;
+  max-width: 800px;
+  font-weight: bold;
+}
