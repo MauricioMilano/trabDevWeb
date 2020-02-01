@@ -3,6 +3,10 @@
   transition: 0.5s;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 .navbar-brand {
   color: #fafafa !important;
 }
