@@ -57,35 +57,131 @@
     </nav>
 
     <div class="container">
-      <div class="card col col-sm-10 col-md-8 col-lg-6 mx-auto my-5 p-5">
+      <div class="card col col-sm-10 col-md-8 col-lg-6 mx-auto my-5 py-5">
         <h1 class="card-title text-center">Registrar</h1>
         <div class="card-body">
           <form>
             <div class="md-6">
               <div class="form-group">
-                <label for="username">Usuário</label>
+                <label for="name">Nome Completo</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="username"
-                  title="Nome de usuário"
-                  placeholder="naruto_da_vila"
+                  id="name"
+                  title="Nome"
+                  placeholder="João da Silva"
                 />
               </div>
 
               <div class="form-group">
-                <label for="password">Senha</label>
+                <label for="email">E-mail</label>
                 <input
-                  type="password"
+                  type="email"
                   class="form-control"
-                  id="password"
-                  title="Sua senha"
-                  placeholder="123456"
+                  id="email"
+                  title="e-mail"
+                  placeholder="exemplo@email.com"
                 />
               </div>
 
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="cpf">CPF</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cpf"
+                    title="CPF"
+                    placeholder="000.000.000-00"
+                  />
+                </div>
+
+                <div class="form-group col">
+                  <label for="phone">Celular</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    title="Telefone"
+                    placeholder="(99) 99999-9999"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="login">Login</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="login"
+                    title="Login"
+                    placeholder="dudu_bolado"
+                  />
+                </div>
+
+                <div class="form-group col">
+                  <label for="password">Senha</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    title="Sua senha"
+                    placeholder="123456"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-8">
+                  <label for="address">Endereço</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address"
+                    title="Endereço"
+                    placeholder="Rua dos bobos, 0"
+                  />
+                </div>
+
+                <div class="form-group col">
+                  <label for="cep">CEP</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cep"
+                    title="CEP"
+                    placeholder="00000-000"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="city">Cidade</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="city"
+                    title="Cidade"
+                    placeholder="Rio de Dezembro"
+                  />
+                </div>
+
+                <div class="form-group col">
+                  <label for="neighborhood">Bairro</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="neighborhood"
+                    title="Bairro"
+                    placeholder="São Sábado"
+                  />
+                </div>
+              </div>
+
               <button type="submit" class="btn btn-primary w-100">
-                Entrar
+                Cadastrar
               </button>
             </div>
           </form>
