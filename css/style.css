@@ -6,6 +6,27 @@
 html {
   position: relative;
   min-height: 100%;
+  font-size: 0.8rem;
+}
+
+/* media queries para responsivo da fonte */
+
+@media screen and (min-width: 780px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 1rem;
+  }
 }
 
 body {
