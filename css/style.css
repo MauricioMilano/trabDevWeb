@@ -193,3 +193,12 @@ footer img {
 .about-text {
   margin-bottom: 30px;
 }
+
+.field-required::after {
+  position: relative;
+  top: 5px;
+  left: 1px;
+  content: '*';
+  color: red;
+  font-size: 1.5rem;
+}
