@@ -81,19 +81,23 @@
                       id="username"
                       title="Nome de Instrutor"
                       placeholder="Jorge o instrutor"
+                      minlength="3"
                       maxlength="50"
+                      required
                     />
                   </div>
     
                   <div class="form-group">
                     <label for="email">Email</label>
                     <input
-                      type="text"
+                      type="email"
                       class="form-control"
                       id="email"
                       title="Email do instrutor"
                       placeholder="instrutor@email.com"
+                      minlength="3"
                       maxlength="50"
+                      required
                     />
                   </div>
                   <div class="form-group">
@@ -105,6 +109,7 @@
                       title="Valor hora do instrutor"
                       placeholder="50"
                       maxlength="10"
+                      min="0"
                     />
                   </div>
                   <div class="form-group">
@@ -115,7 +120,9 @@
                       id="login"
                       title="login"
                       placeholder="JorgeInst"
+                      minlength="3"
                       maxlength="20"
+                      required
                     />
                   </div>
                   <div class="form-group">
@@ -126,7 +133,9 @@
                       id="password"
                       title="password"
                       placeholder="Preço do curso de verão"
+                      minlength="3"
                       maxlength="255"
+                      required
                     />
                   </div>
                   <button type="submit" class="btn btn-primary w-100">Adicionar</button>
